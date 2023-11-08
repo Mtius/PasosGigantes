@@ -75,5 +75,41 @@ a:active{
     text-align: center;
     padding: 50px;
     font-size: 24px;
+    margin-bottom:50px;
 }
 
+#family{
+    width: 650px;
+    height: 250px;
+    display: inline-block; 
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+#ansiedad{
+    width: 650px;
+    height: 250px;
+    display: inline-block; 
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+#pareja{
+    width: 650px;
+    height: 250px;
+    display: inline-block; 
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom:50px;
+}
+
+#depre{
+    width: 650px;
+    height: 250px;
+    display: inline-block; 
+    margin-left: 200px;
+    text-align: center;
+    margin-bottom:50px;
+}

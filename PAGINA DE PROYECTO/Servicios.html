@@ -5,10 +5,11 @@
     <title>Servicios</title>
     <link rel="stylesheet" href="serviciosstyles.css">
     <meta name="Wilson Javier Gomez Mantilla y Santiago Matheus Quintero" content="Pagina de psicologia">
-    <meta name="Aqui encontramos los servicios que pueden interesar al usuario al momneto de adquirirlo "
-    
+    <meta name="Aqui encontramos los servicios que pueden interesar al usuario al momneto de adquirirlo">
 </head>
 <body>
+
+
     <div class="header">
         <nav>
             <a href="Servicios.html"class="Metadatos"><strong>SERVICIOS</strong></a>
@@ -39,11 +40,60 @@
     </div>
 
     <br>
+    
+    <img id="family" alt="Terapia Familiar" src="Image/family.jpg">
+    <img id="ansiedad" alt="Transtorno de ansiedad" src="Image/ansiedad.jpg">
+    <img id="pareja" alt="Terapia de pareja" src="Image/terapia-pareja.jpg">
+    <img id="depre" alt="Terapia depresion" src="Image/depre.jpg">
+       
+    <script>
 
-    <img alt="Terapia Familiar">
-    <img alt="Transtorno de ansiedad">
-    <img alt="Terapia de pareja">
-    <img alt="Terapia depresion">
+        var familyImage = document.getElementById("family");
+        var ansiedadImage = document.getElementById("ansiedad");
+        var parejaImage = document.getElementById("pareja");
+        var depreImage = document.getElementById("depre");
 
+        familyImage.addEventListener("mouseover", function () {
+
+            familyImage.style.width = "700px";
+            familyImage.style.height = "300px";
+        });
+
+        familyImage.addEventListener("mouseout", function () {
+            familyImage.style.width = "650px";
+            familyImage.style.height = "250px";
+        });
+
+        ansiedadImage.addEventListener("mouseover", function () {
+            ansiedadImage.style.width = "700px";
+            ansiedadImage.style.height = "300px";
+        });
+
+        ansiedadImage.addEventListener("mouseout", function () {
+            ansiedadImage.style.width = "650px";
+            ansiedadImage.style.height = "250px";
+        });
+
+        parejaImage.addEventListener("mouseover", function () {
+            parejaImage.style.width = "700px";
+            parejaImage.style.height = "300px";
+        });
+
+        parejaImage.addEventListener("mouseout", function () {
+            parejaImage.style.width = "650px";
+            parejaImage.style.height = "250px";
+        });
+
+        depreImage.addEventListener("mouseover", function () {
+            depreImage.style.width = "700px";
+            depreImage.style.height = "300px";
+        });
+
+        depreImage.addEventListener("mouseout", function () {
+            depreImage.style.width = "650px";
+            depreImage.style.height = "250px";
+        });
+
+    </script>
 </body>
 </html>
