@@ -67,15 +67,13 @@ a:active{
 }
 
 .box2 {
-    width: 700px;
-    height: 200px;
+    width: 650px;
+    height: 250px;
     display: inline-block; 
-    margin-right: 0px; 
     margin-left: 200px;
     background-color: #FbCAE9;
     text-align: center;
     padding: 50px;
-    padding-bottom:5px;
     font-size: 24px;
 }
 
